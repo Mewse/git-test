@@ -50,6 +50,8 @@ Example:
 # Now revert the changes made in that commit
 git revert a23d56d
 
+# This will open a text editor showing you the changes being made. This text window is to allow you to enter a commit message, ie a reason for you backing out the changes.
+# Change the text to whatever you want and then save and exit the text editor. Exiting will tell git to go ahead and make the commit.
 
 Branches
 --------
